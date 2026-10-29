@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FilmFlix</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/components/badge.css" />
+    <link rel="stylesheet" href="../styles/components/button.css" />
+    <link rel="stylesheet" href="../styles/components/navbar.css" />
+    <link rel="stylesheet" href="../styles/components/iklan.css" />
+    <link rel="stylesheet" href="../styles/components/detail.css" />
+    <link rel="stylesheet" href="../styles/components/movies.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="navbar__logo">
+        <span>Flix</span>
+      </div>
+
+      <nav class="navbar__menu" aria-label="Main navigation">
+        <a href="#" class="navbar__link --active">
+          <re-icon icon="search-normal" class="navbar__icon"></re-icon>
+          <span class="navbar__label">Search</span>
+        </a>
+
+        <a href="#" class="navbar__link --active">
+          <re-icon icon="home6" class="navbar__icon navbar__active"></re-icon>
+          <span class="navbar__label">Home</span>
+        </a>
+
+        <a href="#" class="navbar__link">
+          <re-icon icon="clapperboard-open" class="navbar__icon"></re-icon>
+          <span class="navbar__label">Movies</span>
+        </a>
+
+        <a href="#" class="navbar__link">
+          <re-icon icon="video-lib" class="navbar__icon"></re-icon>
+          <span class="navbar__label">TV Shows</span>
+        </a>
+
+        <a href="#" class="navbar__link">
+          <re-icon icon="video-play-h" class="navbar__icon"></re-icon>
+          <span class="navbar__label">My List</span>
+        </a>
+      </nav>
+
+      <a href="#" class="navbar__link" style="border-radius: 9999px">
+        <re-icon icon="user2" class="navbar__icon"></re-icon>
+        <span class="navbar__label">Profile</span>
+      </a>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section
+        id="hero"
+        class="hero"
+        style="
+          background-image: url(&quot;../assets/detail/backdrop.jpg&quot;);
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <!--  -->
+        <div class="hero__overlay"></div>
+      </section>
+
+      <section class="max-w-[1000px] mx-auto relative bottom-20">
+        <div class="grid grid-cols-4 gap-6 w-full">
+          <div class="space-y-2">
+            <img
+              src="../assets/poster/film 2.jpg"
+              alt=""
+              class="rounded-sm mb-4"
+            />
+            <button
+              class="w-full bg-zinc-900 hover:bg-zinc-800 transition-all duration-300 px-4 py-2 rounded-md flex items-center justify-center gap-2"
+            >
+              <re-icon
+                icon="heart"
+                weight="filled"
+                class="text-pink-700"
+              ></re-icon>
+              Favorite
+            </button>
+            <button
+              class="w-full bg-zinc-900 hover:bg-zinc-800 transition-all duration-300 px-4 py-2 rounded-md flex items-center justify-center gap-2"
+            >
+              <re-icon icon="library"></re-icon>
+              Add To Colection
+            </button>
+            <button
+              class="w-full bg-zinc-900 hover:bg-zinc-800 transition-all duration-300 px-4 py-2 rounded-md flex items-center justify-center gap-2"
+            >
+              <re-icon icon="forward-right" class=""></re-icon>
+              Share
+            </button>
+          </div>
+
+          <!-- Info -->
+          <div class="col-span-3 space-y-4">
+            <div class="flex flex-col">
+              <div class="flex justify-between items-center">
+                <div>
+                  <h1 class="text-6xl font-medium">Arcane</h1>
+                  <p>Original title: Arcane: League of Legends</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <button class="button--primary button ">
+                    <re-icon icon="play3" class="stroke-2 size-4"></re-icon>
+                    Watch Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full h-px bg-zinc-800"></div>
+
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="badge badge--outline flex items-center gap-2">
+                <re-icon icon="eye"></re-icon>
+                76.767
+              </span>
+
+              <span class="badge badge--purple"> TV-SERIES </span>
+
+              <span class="badge badge--success"> 2021 - 2024</span>
+
+              <span class="badge badge--info"> TV-14 </span>
+
+              <span class="badge badge--outline"> 40m </span>
+            </div>
+
+            <div class="w-full h-px bg-zinc-800"></div>
+
+            <div class="">
+              <!-- <h3 class="text-xl">Details</h3> -->
+              <div class="flex flex-col gap-2 mt-4">
+                <p>
+                  Director:
+                  <span class="mx-1 text-white underline underline-offset-2"
+                    >Pascal Charrue</span
+                  >
+                  and
+                  <span class="mx-1 text-white underline underline-offset-2"
+                    >Arnaud Delord</span
+                  >
+                </p>
+                <p>
+                  Writers:
+                  <span class="mx-1 text-white underline underline-offset-2"
+                    >Christian</span
+                  >
+                  and
+                  <span class="mx-1 text-white underline underline-offset-2"
+                    >Linke Alex Yee</span
+                  >
+                </p>
+                <p>Countries of Origin: France and the United States</p>
+                <p>Original Language: English</p>
+                <p>
+                  Release Dates: <br />
+                  <span class="text-white">Season 1: November 6, 2021</span>
+                  <br />
+                  <span class="text-white"
+                    >Season 2: November 9, 2024 – November 23, 2024</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="w-full h-px bg-zinc-800"></div>
+
+            <div class="space-y-2 *:text-justify">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                ad? Necessitatibus reprehenderit impedit, ratione alias,
+                explicabo quae consequuntur nam fugiat quos veritatis aliquam
+                incidunt temporibus facere molestiae sapiente voluptate eum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, minima. Illo architecto cumque consectetur fugiat
+                pariatur. Nisi reiciendis eligendi nemo?
+              </p>
+            </div>
+
+            <div class="w-full h-px bg-zinc-800"></div>
+
+            <div class="flex flex-wrap gap-2 items-center">
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Action Epic
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Adult Animation
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Coming-of-Age
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Computer Animation
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Dark Fantasy
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Epic
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Political Drama
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Fantasy Epic
+              </span>
+              <span
+                class="text-sm px-3 py-1 text-zinc-400 hover:text-white transition-all duration-300 border border-zinc-800 flex items-center gap-2 rounded-md"
+              >
+                Psychological Drama
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <!-- Grid 3 -->
+        <div class="iklan__grid">
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/iklan/iklan 1.jpg" alt="" class="iklan__card" />
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/iklan/iklan 2.jpg" alt="" class="iklan__card" />
+          </a>
+        </div>
+      </section>
+
+      <section class="container" aria-labelledby="trending-title">
+        <!-- Section Header -->
+        <div class="movies__header">
+          <div class="movies__heading">
+            <re-icon icon="video-lib" class="movies__icon"></re-icon>
+
+            <div>
+              <h2 id="trending-title" class="movies__title">More Like This</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Grid -->
+        <div class="movies__grid">
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 3.jpg"
+                  alt="Spirited Away"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 4.jpg"
+                  alt="Weathering With You"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 5.jpg"
+                  alt="Demon Slayer"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 9.jpg"
+                  alt="Attack on Titan"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 13.jpg"
+                  alt="Attack on Titan"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 14.jpg"
+                  alt="Attack on Titan"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 15.jpg"
+                  alt="Attack on Titan"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="movie-card">
+            <a href="#" class="movie-card__link">
+              <div class="movie-card__poster">
+                <img
+                  src="../assets/poster/film 16.jpg"
+                  alt="Attack on Titan"
+                  loading="lazy"
+                />
+
+                <div class="movie-card__overlay">
+                  <span class="movie-card__play">
+                    <re-icon icon="play"></re-icon>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; 2026 FilmFlix. All rights reserved.</p>
+        <p>Thank you for visiting FilmFlix.</p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/reicon@latest/cdn/reicon.js"></script>
+  </body>
+</html>

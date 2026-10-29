@@ -19,13 +19,6 @@
     align-items: center;
 
     padding: var(--space-8) 0;
-
-    background: linear-gradient(
-        to right,
-        var(--overlay-heavy),
-        var(--overlay-medium),
-        transparent
-    );
 }
 
 .navbar__logo {

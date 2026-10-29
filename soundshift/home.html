@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      SoundShift - Web Download Musik dari Spotify, YouTube
+      Music Paling Sat-Set, Gratis &amp; Gak Pake Ribet
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: "var(--background)",
+              foreground: "var(--foreground)",
+              card: "var(--card)",
+              primary: {
+                DEFAULT: "var(--primary)",
+                foreground: "var(--primary-foreground)",
+              },
+              muted: {
+                DEFAULT: "var(--muted)",
+                foreground: "var(--muted-foreground)",
+              },
+              accent: "var(--accent)",
+              destructive: "var(--destructive)",
+              input: "var(--input)",
+              ring: "var(--ring)",
+              tint: { DEFAULT: "var(--tint)", foreground: "var(--tint-fg)" },
+            },
+            fontFamily: {
+              sans: "var(--font-sans)",
+              mono: "var(--font-mono)",
+            },
+            borderRadius: { DEFAULT: "var(--radius)" },
+            boxShadow: { card: "var(--shadow-sm)" },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="global.css" />
+    <script src="https://unpkg.com/reicon/cdn/reicon.js"></script>
+  </head>
+  
+  <body class="font-sans bg-background text-foreground text-base leading-relaxed dark"> 
+    <div class="mx-auto max-w-4xl px-5" id="top">
+      <!-- Header: brand + navigation -->
+      <header class="flex items-center justify-between gap-4 py-4">
+        <a
+          class="flex items-center gap-3 font-extrabold text-base no-underline"
+          href="#top"
+          ><i
+            class="grid place-items-center w-10 h-10 rounded-2xl bg-primary text-primary-foreground"
+            ><re-icon icon="headphones" size="20"></re-icon></i
+          >SoundShift</a
+        >
+        <nav class="flex gap-1 flex-wrap" aria-label="Main">
+          <a
+            class="px-3.5 py-2 rounded-full text-foreground font-semibold no-underline bg-muted "
+            href="#top"
+            >Beranda</a
+          ><a
+            class="px-3.5 py-2 rounded-full text-muted-foreground font-semibold no-underline hover:bg-muted hover:text-foreground max-sm:hidden"
+            href="#about"
+            >Tentang Kita</a
+          ><a
+            class="px-3.5 py-2 rounded-full text-muted-foreground font-semibold no-underline hover:bg-muted hover:text-foreground max-sm:hidden"
+            href="#features"
+            >Fitur Kece</a
+          >
+        </nav>
+      </header>
+
+      <main>
+        <!-- Hero: headline, supported platforms, search form, status line -->
+        <section class="pt-9 pb-6">
+
+          <!-- Mskot -->
+
+          <h1
+            class="text-3xl sm:text-4xl md:text-4xl leading-tight font-extrabold tracking-tight max-w-2xl"
+          >
+            Copas link musik lo di sini <br />
+            Langsung siap di-download.
+          </h1>
+          <p class="text-muted-foreground mt-2.5 max-w-prose leading-relaxed">
+            Mau narik satu lagu doang, satu album full, atau playlist
+            tongkrongan dari
+
+            <!-- Spotify -->
+            <span
+              class="mx-1 inline-flex items-center gap-1.5 font-semibold text-foreground align-middle"
+            >
+              <svg
+                class="w-4 h-4 shrink-0"
+                viewBox="0 0 256 256"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M128 0C57.308 0 0 57.309 0 128c0 70.696 57.309 128 128 128 70.697 0 128-57.304 128-128C256 57.314 198.697.007 127.998.007l.001-.006Zm58.699 184.614c-2.293 3.76-7.215 4.952-10.975 2.644-30.053-18.357-67.885-22.515-112.44-12.335a7.981 7.981 0 0 1-9.552-6.007 7.968 7.968 0 0 1 6-9.553c48.76-11.14 90.583-6.344 124.323 14.276 3.76 2.308 4.952 7.215 2.644 10.975Zm15.667-34.853c-2.89 4.695-9.034 6.178-13.726 3.289-34.406-21.148-86.853-27.273-127.548-14.92-5.278 1.594-10.852-1.38-12.454-6.649-1.59-5.278 1.386-10.842 6.655-12.446 46.485-14.106 104.275-7.273 143.787 17.007 4.692 2.89 6.175 9.034 3.286 13.72v-.001Zm1.345-36.293C162.457 88.964 94.394 86.71 55.007 98.666c-6.325 1.918-13.014-1.653-14.93-7.978-1.917-6.328 1.65-13.012 7.98-14.935C93.27 62.027 168.434 64.68 215.929 92.876c5.702 3.376 7.566 10.724 4.188 16.405-3.362 5.69-10.73 7.565-16.4 4.187h-.006Z"
+                  fill="#1ED760"
+                />
+              </svg>
+              Spotify </span
+            >,
+
+            <!-- Joox -->
+            <span
+              class="mx-1 inline-flex items-center gap-1.5 font-semibold text-foreground align-middle"
+            >
+              <img
+                src="https://joox-cms-image-1251316161.file.myqcloud.com/2021/09/27/16630e4a-928b-4ed5-80ec-3b53818ae069.jpg/300"
+                alt="Joox"
+                class="w-4 h-4 rounded-full object-cover shrink-0"
+              />
+              Joox
+            </span>,
+
+            <!-- YouTube Music -->
+            sampai
+            <span
+              class="ms-1 inline-flex items-center gap-1.5 font-semibold text-foreground align-middle"
+            >
+              <svg
+                class="w-4 h-4 shrink-0"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 192 192"
+              >
+                <circle cx="96" cy="96" r="88" fill="#FF0000" />
+                <path
+                  fill="#ffffff"
+                  d="M96 50.32c25.19 0 45.68 20.49 45.68 45.68S121.19 141.68 96 141.68 50.32 121.19 50.32 96 70.81 50.32 96 50.32m0-6.4c-28.76 0-52.08 23.32-52.08 52.08 0 28.76 23.32 52.08 52.08 52.08s52.08-23.32 52.08-52.08c0-28.76-23.32-52.08-52.08-52.08z"
+                />
+                <path fill="#ffffff" d="m79 122 45-26-45-26z" />
+              </svg>
+              YouTube Music?
+            </span>
+            Gas aja!
+          </p>
+          <form
+            class="flex gap-2.5 mt-6 flex-wrap"
+            onsubmit="return false;"
+          >
+            <div class="relative grow basis-80">
+              <re-icon
+                icon="link"
+                size="20"
+                class="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"
+              ></re-icon>
+              <input
+                type="url"
+                aria-label="Masukin link musik lo di sini"
+                value="https://open.spotify.com/playlist/1yRqQXVhkmAq7UH7OtKNMJ?si=6be70371b47a496a"
+                class="w-full h-14 pl-12 pr-5 border border-input rounded-full bg-card text-foreground font-medium text-base text-ellipsis"
+              />
+            </div>
+            <button
+              class="inline-flex items-center justify-center gap-2 h-14 px-7 border-0 rounded-full bg-primary text-primary-foreground font-bold shadow-card no-underline hover:brightness-95"
+              type="submit"
+            >
+              <re-icon icon="search" size="20"></re-icon>Gas Cari Lagunya
+            </button>
+          </form>
+          <div
+            class="flex items-center gap-2 mt-3.5 text-tint-foreground font-semibold text-sm"
+          >
+            <re-icon icon="check-circle" size="18"></re-icon>Yeay! Playlist lo
+            udah ketemu nih, ada 5 lagu.
+          </div>
+        </section>
+
+        <!-- Result: playlist summary + song table -->
+        <section
+          class="bg-card border border-input rounded shadow-card overflow-hidden"
+          aria-labelledby="pl-title"
+        >
+          <div class="flex items-center gap-5 p-6 flex-wrap">
+            <div
+              class="cover w-24 h-24 rounded-2xl"
+              style="--h: 165"
+            >
+              <re-icon icon="album" size="34"></re-icon>
+            </div>
+            <div class="flex-1 basis-56 min-w-0">
+              <h3
+                id="pl-title"
+                class="text-2xl font-extrabold tracking-tight"
+              >
+                Pesen Mie Ayam <br/> Pake Kuah Americano Double Shot
+              </h3>
+              <p class="text-muted-foreground">Playlist andalan dari fz</p>
+              <div
+                class="flex gap-4 mt-2 text-muted-foreground text-sm flex-wrap"
+              >
+                <span class="inline-flex items-center gap-1.5"
+                  ><re-icon icon="music" size="16"></re-icon>6 lagu</span
+                ><span class="inline-flex items-center gap-1.5"
+                  ><re-icon icon="clock" size="16"></re-icon>23 menit</span
+                >
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-end gap-1.5 max-md:items-start max-md:w-full"
+            >
+              <button
+                class="inline-flex items-center justify-center gap-2 h-14 px-7 border-0 rounded-full bg-primary text-primary-foreground font-bold shadow-card no-underline hover:brightness-95 max-md:w-full"
+                type="button"
+              >
+                <re-icon icon="archive" size="20"></re-icon>Download Semua
+              </button>
+              <small class="text-muted-foreground text-xs"
+                >Satu file ZIP, cuma sekitar 53 MB kok.</small
+              >
+            </div>
+          </div>
+          <!--
+            Song table. The column template is a custom fr-based grid, so it stays
+            as an arbitrary value (Tailwind has no scale equivalent for it).
+          -->
+          <div
+            class="grid grid-cols-[2rem_minmax(0,2.3fr)_minmax(0,1.2fr)_3.4rem_6rem_6.8rem] gap-4 items-center px-6 py-2.5 border-y border-input text-muted-foreground text-xs font-semibold max-md:hidden"
+            aria-hidden="true"
+          >
+            <span>#</span><span>Judul</span><span>Album</span><span>Durasi</span
+            ><span>Format</span><span></span>
+          </div>
+          <ol class="list-none p-0">
+            <li
+              class="grid grid-cols-[2rem_minmax(0,2.3fr)_minmax(0,1.2fr)_3.4rem_6rem_6.8rem] gap-4 items-center px-6 py-3 border-b border-input hover:bg-muted last:border-b-0 max-md:grid-cols-[minmax(0,1fr)_auto] max-md:px-4"
+            >
+              <span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >1</span
+              >
+              <div class="flex items-center gap-3.5 min-w-0">
+                <span
+                  class="cover w-12 h-12 rounded-xl"
+                  style="--h: 160"
+                  ><re-icon icon="music" size="18"></re-icon
+                ></span>
+                <div class="flex flex-col min-w-0">
+                  <b class="truncate">XXL</b
+                  ><span class="truncate text-muted-foreground text-sm"
+                    >LANY</span
+                  >
+                </div>
+              </div>
+              <span
+                class="truncate text-muted-foreground text-sm max-md:hidden"
+                >a beutiful blur</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >3:42</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >MP3 8.6 MB</span
+              ><button
+                class="inline-flex items-center justify-center gap-1.5 h-9 px-4 border border-input rounded-full bg-card font-semibold text-sm hover:bg-primary hover:border-primary hover:text-primary-foreground"
+                type="button"
+              >
+                <re-icon icon="download" size="16"></re-icon>Download
+              </button>
+            </li>
+            <li
+              class="grid grid-cols-[2rem_minmax(0,2.3fr)_minmax(0,1.2fr)_3.4rem_6rem_6.8rem] gap-4 items-center px-6 py-3 border-b border-input hover:bg-muted last:border-b-0 max-md:grid-cols-[minmax(0,1fr)_auto] max-md:px-4"
+            >
+              <span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >2</span
+              >
+              <div class="flex items-center gap-3.5 min-w-0">
+                <span
+                  class="cover w-12 h-12 rounded-xl"
+                  style="--h: 200"
+                  ><re-icon icon="music" size="18"></re-icon
+                ></span>
+                <div class="flex flex-col min-w-0">
+                  <b class="truncate">I pray</b
+                  ><span class="truncate text-muted-foreground text-sm"
+                    >LANY</span
+                  >
+                </div>
+              </div>
+              <span
+                class="truncate text-muted-foreground text-sm max-md:hidden"
+                >a beutiful blur</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >2:58</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >MP3 6.9 MB</span
+              ><button
+                class="inline-flex items-center justify-center gap-1.5 h-9 px-4 border border-input rounded-full bg-card font-semibold text-sm hover:bg-primary hover:border-primary hover:text-primary-foreground"
+                type="button"
+              >
+                <re-icon icon="download" size="16"></re-icon>Download
+              </button>
+            </li>
+            <li
+              class="grid grid-cols-[2rem_minmax(0,2.3fr)_minmax(0,1.2fr)_3.4rem_6rem_6.8rem] gap-4 items-center px-6 py-3 border-b border-input hover:bg-muted last:border-b-0 max-md:grid-cols-[minmax(0,1fr)_auto] max-md:px-4"
+            >
+              <span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >3</span
+              >
+              <div class="flex items-center gap-3.5 min-w-0">
+                <span
+                  class="cover w-12 h-12 rounded-xl"
+                  style="--h: 130"
+                  ><re-icon icon="music" size="18"></re-icon
+                ></span>
+                <div class="flex flex-col min-w-0">
+                  <b class="truncate">Thru These Tears</b
+                  ><span class="truncate text-muted-foreground text-sm"
+                    >LANY</span
+                  >
+                </div>
+              </div>
+              <span
+                class="truncate text-muted-foreground text-sm max-md:hidden"
+                >a beutiful blur</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >4:15</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >MP3 9.9 MB</span
+              ><button
+                class="inline-flex items-center justify-center gap-1.5 h-9 px-4 border border-input rounded-full bg-card font-semibold text-sm hover:bg-primary hover:border-primary hover:text-primary-foreground"
+                type="button"
+              >
+                <re-icon icon="download" size="16"></re-icon>Download
+              </button>
+            </li>
+            <li
+              class="grid grid-cols-[2rem_minmax(0,2.3fr)_minmax(0,1.2fr)_3.4rem_6rem_6.8rem] gap-4 items-center px-6 py-3 border-b border-input hover:bg-muted last:border-b-0 max-md:grid-cols-[minmax(0,1fr)_auto] max-md:px-4"
+            >
+              <span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >4</span
+              >
+              <div class="flex items-center gap-3.5 min-w-0">
+                <span
+                  class="cover w-12 h-12 rounded-xl"
+                  style="--h: 175"
+                  ><re-icon icon="music" size="18"></re-icon
+                ></span>
+                <div class="flex flex-col min-w-0">
+                  <b class="truncate">That Should Be Me</b
+                  ><span class="truncate text-muted-foreground text-sm"
+                    >Justin Bieber</span
+                  >
+                </div>
+              </div>
+              <span
+                class="truncate text-muted-foreground text-sm max-md:hidden"
+                >My World 2.0</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >3:21</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >MP3 7.7 MB</span
+              ><button
+                class="inline-flex items-center justify-center gap-1.5 h-9 px-4 border border-input rounded-full bg-card font-semibold text-sm hover:bg-primary hover:border-primary hover:text-primary-foreground"
+                type="button"
+              >
+                <re-icon icon="download" size="16"></re-icon>Download
+              </button>
+            </li>
+            <li
+              class="grid grid-cols-[2rem_minmax(0,2.3fr)_minmax(0,1.2fr)_3.4rem_6rem_6.8rem] gap-4 items-center px-6 py-3 border-b border-input hover:bg-muted last:border-b-0 max-md:grid-cols-[minmax(0,1fr)_auto] max-md:px-4"
+            >
+              <span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >5</span
+              >
+              <div class="flex items-center gap-3.5 min-w-0">
+                <span
+                  class="cover w-12 h-12 rounded-xl"
+                  style="--h: 230"
+                  ><re-icon icon="music" size="18"></re-icon
+                ></span>
+                <div class="flex flex-col min-w-0">
+                  <b class="truncate">Stuck In The Moment</b
+                  ><span class="truncate text-muted-foreground text-sm"
+                    >Justin Bieber</span
+                  >
+                </div>
+              </div>
+              <span
+                class="truncate text-muted-foreground text-sm max-md:hidden"
+                >My World 2.0</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >5:03</span
+              ><span
+                class="font-mono text-sm text-muted-foreground max-md:hidden"
+                >MP3 11.7 MB</span
+              ><button
+                class="inline-flex items-center justify-center gap-1.5 h-9 px-4 border border-input rounded-full bg-card font-semibold text-sm hover:bg-primary hover:border-primary hover:text-primary-foreground"
+                type="button"
+              >
+                <re-icon icon="download" size="16"></re-icon>Download
+              </button>
+            </li>
+          </ol>
+        </section>
+
+        <!-- About: what SoundShift is + supported platforms -->
+        <section class="py-12" id="about">
+          <h2
+            class="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight"
+          >
+            Apaan sih SoundShift itu?
+          </h2>
+          <p class="text-muted-foreground mt-2.5 max-w-prose">
+            Gampangnya, SoundShift tuh semacam jalan pintas (shortcut) buat
+            ngubah link musik yang lo dapet dari berbagai platform jadi file
+            audio beneran. Jadi lo bisa langsung download dan dengerin offline
+            sepuasnya tanpa kudu dengerin iklan premium.
+          </p>
+          <div class="flex gap-2 flex-wrap mt-5">
+            <span
+              class="inline-flex items-center gap-1.5 px-4 py-1.5 border border-input rounded-full font-semibold text-sm"
+            >
+              <svg
+                class="w-4 h-4 shrink-0"
+                viewBox="0 0 256 256"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M128 0C57.308 0 0 57.309 0 128c0 70.696 57.309 128 128 128 70.697 0 128-57.304 128-128C256 57.314 198.697.007 127.998.007l.001-.006Zm58.699 184.614c-2.293 3.76-7.215 4.952-10.975 2.644-30.053-18.357-67.885-22.515-112.44-12.335a7.981 7.981 0 0 1-9.552-6.007 7.968 7.968 0 0 1 6-9.553c48.76-11.14 90.583-6.344 124.323 14.276 3.76 2.308 4.952 7.215 2.644 10.975Zm15.667-34.853c-2.89 4.695-9.034 6.178-13.726 3.289-34.406-21.148-86.853-27.273-127.548-14.92-5.278 1.594-10.852-1.38-12.454-6.649-1.59-5.278 1.386-10.842 6.655-12.446 46.485-14.106 104.275-7.273 143.787 17.007 4.692 2.89 6.175 9.034 3.286 13.72v-.001Zm1.345-36.293C162.457 88.964 94.394 86.71 55.007 98.666c-6.325 1.918-13.014-1.653-14.93-7.978-1.917-6.328 1.65-13.012 7.98-14.935C93.27 62.027 168.434 64.68 215.929 92.876c5.702 3.376 7.566 10.724 4.188 16.405-3.362 5.69-10.73 7.565-16.4 4.187h-.006Z"
+                  fill="#1ED760"
+                />
+              </svg>
+              Spotify
+            </span>
+
+            <span
+              class="inline-flex items-center gap-1.5 px-4 py-1.5 border border-input rounded-full font-semibold text-sm"
+            >
+              <img
+                src="https://joox-cms-image-1251316161.file.myqcloud.com/2021/09/27/16630e4a-928b-4ed5-80ec-3b53818ae069.jpg/300"
+                alt="Joox"
+                class="w-4 h-4 rounded-full object-cover shrink-0"
+              />
+              Joox
+            </span>
+
+            <span
+              class="inline-flex items-center gap-1.5 px-4 py-1.5 border border-input rounded-full font-semibold text-sm"
+            >
+              <svg
+                class="w-4 h-4 shrink-0"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                viewBox="0 0 192 192"
+              >
+                <circle cx="96" cy="96" r="88" fill="#FF0000" />
+                <path
+                  fill="#ffffff"
+                  d="M96 50.32c25.19 0 45.68 20.49 45.68 45.68S121.19 141.68 96 141.68 50.32 121.19 50.32 96 70.81 50.32 96 50.32m0-6.4c-28.76 0-52.08 23.32-52.08 52.08 0 28.76 23.32 52.08 52.08 52.08s52.08-23.32 52.08-52.08c0-28.76-23.32-52.08-52.08-52.08z"
+                />
+                <path fill="#ffffff" d="m79 122 45-26-45-26z" />
+              </svg>
+              YouTube Music
+            </span>
+          </div>
+        </section>
+
+        <!-- Features: 2-column grid of feature cards -->
+        <section class="py-12" id="features">
+          <div>
+            <div>
+              <h2
+                class="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight"
+              >
+                Kenapa SoundShift enak banget
+              </h2>
+              <ul
+                class="list-none p-0 mt-6 grid grid-cols-1 md:grid-cols-2 gap-8"
+              >
+                <li class="flex gap-3.5">
+                  <span
+                    class="grid place-items-center flex-none w-10 h-10 rounded-full bg-tint text-tint-foreground"
+                    ><re-icon icon="link" size="20"></re-icon
+                  ></span>
+                  <div>
+                    <h3 class="text-base font-bold leading-tight">
+                      Bisa multi platform
+                    </h3>
+                    <p class="text-muted-foreground text-sm">
+                      Terima link lagu, album, atau playlist dari Spotify, Joox,
+                      sama YouTube Music.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3.5">
+                  <span
+                    class="grid place-items-center flex-none w-10 h-10 rounded-full bg-tint text-tint-foreground"
+                    ><re-icon icon="search" size="20"></re-icon
+                  ></span>
+                  <div>
+                    <h3 class="text-base font-bold leading-tight">
+                      Langsung ketemu lagunya
+                    </h3>
+                    <p class="text-muted-foreground text-sm">
+                      Paste link, langsung muncul daftar lagunya yang siap
+                      di-download.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3.5">
+                  <span
+                    class="grid place-items-center flex-none w-10 h-10 rounded-full bg-tint text-tint-foreground"
+                    ><re-icon icon="filter" size="20"></re-icon
+                  ></span>
+                  <div>
+                    <h3 class="text-base font-bold leading-tight">
+                      Bisa pilih-pilih
+                    </h3>
+                    <p class="text-muted-foreground text-sm">
+                      Mau download satu lagu aja atau semua sekalian, terserah
+                      kamu.
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3.5">
+                  <span
+                    class="grid place-items-center flex-none w-10 h-10 rounded-full bg-tint text-tint-foreground"
+                    ><re-icon icon="shield-check" size="20"></re-icon
+                  ></span>
+                  <div>
+                    <h3 class="text-base font-bold leading-tight">
+                      Cepat &amp; aman
+                    </h3>
+                    <p class="text-muted-foreground text-sm">
+                      Alurnya ringan, datanya juga diperlakukan dengan baik.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- Footer: brand, links, contact, legal -->
+    <footer class="mt-6 bg-muted rounded-t" id="contact">
+      <div class="mx-auto max-w-4xl px-5">
+        <div
+          class="grid grid-cols-2 gap-12 pt-12 pb-8 max-md:grid-cols-1 max-md:gap-8"
+        >
+          <div>
+            <a
+              class="flex items-center gap-3 font-extrabold text-base no-underline"
+              href="#top"
+              ><i
+                class="grid place-items-center w-10 h-10 rounded-2xl bg-primary text-primary-foreground"
+                ><re-icon icon="headphones" size="20"></re-icon></i
+              >SoundShift</a
+            >
+            <p class="text-muted-foreground mt-2.5 max-w-prose">
+              Temuin lagu, album, sama playlist favoritmu dari platform yang
+              didukung, terus download dengan cara yang simpel, cepet, dan aman.
+            </p>
+            <ul
+              class="flex flex-wrap gap-x-5 gap-y-1 mt-5 list-none p-0"
+            >
+              <li>
+                <a
+                  class="text-muted-foreground no-underline font-semibold hover:text-foreground"
+                  href="#about"
+                  >Tentang</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted-foreground no-underline font-semibold hover:text-foreground"
+                  href="#features"
+                  >Fitur</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted-foreground no-underline font-semibold hover:text-foreground"
+                  href="#why"
+                  >Kenapa kita</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-muted-foreground no-underline font-semibold hover:text-foreground"
+                  href="#steps"
+                  >Cara Pakenya</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p
+          class="pt-5 pb-8 border-t border-input text-muted-foreground text-xs"
+        >
+          &copy; 2026 SoundShift Downloader. Be a
+          smart listener! 
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

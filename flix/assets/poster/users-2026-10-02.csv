@@ -1,0 +1,102 @@
+﻿id,username,name,role,status,nim,lecturerCode,batchCode,studyProgramName,bio,createdAt
+0199af2b-5244-4bd5-b035-404338b9ba4f,fajar.ramdhani@satu.ac.id,Fajar Ramdhani,lecturer,active,,SF10000,,,,2026-10-02T02:30:06.331Z
+3e49f35d-1a55-4547-b72e-b94e20ccd3f6,kenari_kenari2@satu.ac.id,Kenari Kenari Hidayanto,student,suspended,2800000002,,B28,Teknik Informatika,Depraedor vester ducimus aequus minima.,2026-10-01T13:55:56.505Z
+6d538507-4ec0-47cc-8e77-c2da4056e2e9,viktor.himawan3@satu.ac.id,Viktor Himawan,student,suspended,2800000003,,B28,Sistem Informasi,Cupio accendo verbera testimonium asperiores.,2026-10-01T13:55:56.505Z
+126a9c36-c566-4d9d-8a5d-d73e84d73091,paris_damayanti454@satu.ac.id,Paris Damayanti,student,suspended,3000000004,,B30,Sistem Informasi,Suadeo cibo advoco avarus vicinus ultra.,2026-10-01T13:55:56.505Z
+95753fd9-7e88-4044-850f-9c50e094bb55,asirwanda_napitupulu5@satu.ac.id,Asirwanda Napitupulu,student,suspended,2700000005,,B27,Sistem Informasi,Cui thalassinus varietas celebrer vox ultio.,2026-10-01T13:55:56.505Z
+a140da9a-79af-4237-9fe2-94011a8ba41f,gangsar.gangsar996@satu.ac.id,Gangsar Gangsar Tarihoran,student,rejected,2600000006,,B26,Teknik Informatika,Acervus tempus caecus.,2026-10-01T13:55:56.505Z
+bfbea632-693a-47dd-b86f-0c25440af908,laras_laras377@satu.ac.id,Laras Laras Nuraini,student,rejected,2700000007,,B27,Sistem Informasi,Tabella creber autem.,2026-10-01T13:55:56.505Z
+7e1abcc2-2fa1-49cd-a637-0a404bf2f08a,gadis.safitri8@satu.ac.id,Gadis Safitri,student,rejected,2600000008,,B26,Desain Komunikasi Visual,Tergum supplanto colo conventus autus videlicet.,2026-10-01T13:55:56.505Z
+6f5f312c-3119-46dd-a06b-4f78a3c487d0,purwanto_sitompul329@satu.ac.id,Purwanto Sitompul,student,pending,2900000009,,B29,Teknik Elektro,Cupio currus aestas pax.,2026-10-01T13:55:56.505Z
+96033571-6239-43ba-84c6-1992aa698f84,siregar.pranawa10@satu.ac.id,Siregar Pranawa,student,pending,2900000010,,B29,Teknik Informatika,Accusator succedo conor.,2026-10-01T13:55:56.505Z
+e6efac1d-9b47-4a9a-adb6-a4666f33a74d,sartika_wahyuni11@satu.ac.id,Sartika Wahyuni,student,pending,2900000011,,B29,Desain Komunikasi Visual,Comprehendo cupiditas a.,2026-10-01T13:55:56.505Z
+c0660aab-fe5d-4d5a-9c37-fb8725a9f9cd,mansur_martaka5012@satu.ac.id,Mansur Martaka,student,pending,2800000012,,B28,Teknik Informatika,Clementia theologus claustrum.,2026-10-01T13:55:56.505Z
+747ab36d-1110-4f11-9c2d-61a8d8d70232,ega.ega13@satu.ac.id,Ega Ega Irfandi,student,active,3000000013,,B30,Teknik Informatika,Alveus cupiditas voluptates.,2026-10-01T13:55:56.505Z
+b4a5d5d0-a90c-40cf-9af4-98f76e41b1c9,elma_aqila14@satu.ac.id,Elma Aqila,student,rejected,2900000014,,B29,Teknik Informatika,Cavus cimentarius ventosus cetera.,2026-10-01T13:55:56.505Z
+5fad4ed9-a02c-4a51-8ab5-b537bf565ad6,wicaksono_dacin3415@satu.ac.id,Wicaksono Dacin,student,pending,2800000015,,B28,Teknik Informatika,Conculco aegre abduco.,2026-10-01T13:55:56.505Z
+dc726098-1de3-459f-9f2c-a1e56ce530e6,ira_nasyiah5216@satu.ac.id,Ira Nasyiah,student,active,3000000016,,B30,Sistem Informasi,Appono tertius apto recusandae benigne.,2026-10-01T13:55:56.505Z
+1b64ab42-f7ac-461f-aac4-088b4861871e,pratiwi_pratiwi9417@satu.ac.id,Pratiwi Pratiwi Prastuti,student,pending,2700000017,,B27,Sistem Informasi,Arma summisse vestrum.,2026-10-01T13:55:56.505Z
+58b72544-721b-44a6-a04c-b4a19314fb4e,natalia.natalia18@satu.ac.id,Natalia Natalia Damayanti,student,pending,2900000018,,B29,Teknik Elektro,Tempora ars totam.,2026-10-01T13:55:56.505Z
+0ec7bc63-bd61-4a0e-a484-0ef3925edf7c,maulana.kenari19@satu.ac.id,Maulana Kenari,student,active,2900000019,,B29,Desain Komunikasi Visual,Aliqua aequitas cupio bibo eius labore.,2026-10-01T13:55:56.505Z
+cbb74c2d-bd0e-4eea-93e1-034ec4b9d00b,fujiati_farhunnisa6820@satu.ac.id,Fujiati Farhunnisa,student,active,3000000020,,B30,Teknik Elektro,Subiungo creber ullam eum varietas.,2026-10-01T13:55:56.505Z
+0ea38c06-e0e4-40de-b994-ba4dc69347cd,dirgantara_darmaji21@satu.ac.id,Dirgantara Darmaji,student,active,2600000021,,B26,Sistem Informasi,Valeo ara arceo comparo addo.,2026-10-01T13:55:56.505Z
+b186f16f-6b31-4ea3-9a48-e68e6a000b40,ozy.ozy22@satu.ac.id,Ozy Ozy Prayoga,student,active,2700000022,,B27,Desain Komunikasi Visual,Cruciamentum comptus defungo truculenter.,2026-10-01T13:55:56.505Z
+f5ee6f8a-ad0f-48bc-8a65-d9b3689567f4,kasiyah.rahimah6023@satu.ac.id,Kasiyah Rahimah,student,active,2900000023,,B29,Desain Komunikasi Visual,Dedico considero victoria cenaculum cilicium.,2026-10-01T13:55:56.505Z
+0ae420d1-40a7-4cd7-95be-329dd9125fa7,ahmad.lutfan24@satu.ac.id,Ahmad Lutfan,student,active,2800000024,,B28,Desain Komunikasi Visual,Crebro somnus adipiscor tantillus corporis vinum.,2026-10-01T13:55:56.505Z
+e0bb366b-5dcd-4792-9100-6fd0d4a4e2d7,raisa_raisa25@satu.ac.id,Raisa Raisa Mulyani,student,active,2900000025,,B29,Teknik Elektro,Antepono voluptatibus calco audax dolor ex.,2026-10-01T13:55:56.505Z
+5a84c0ff-fe36-4a1e-8eff-5077624114ab,haryanti.humaira1726@satu.ac.id,Haryanti Humaira,student,active,2700000026,,B27,Sistem Informasi,Damno tribuo mollitia solio sustineo crinis.,2026-10-01T13:55:56.505Z
+758ee562-372f-4205-a01b-e0614b4d7293,uchita_suryatmi27@satu.ac.id,Uchita Suryatmi,student,active,2700000027,,B27,Sistem Informasi,Ipsum infit ventosus.,2026-10-01T13:55:56.505Z
+a5b3120d-3e9d-4ae5-950c-c5f22c2202b0,vicky.vicky528@satu.ac.id,Vicky Vicky Ardiyanti,student,active,3000000028,,B30,Desain Komunikasi Visual,Tendo unde in commodo.,2026-10-01T13:55:56.505Z
+9b2a6e42-1c06-4338-b2a7-4347803757bb,cinta.cinta29@satu.ac.id,Cinta Cinta Rahmawati,student,active,2700000029,,B27,Desain Komunikasi Visual,Concido chirographum omnis communis.,2026-10-01T13:55:56.505Z
+c3424915-b2d5-4402-87ac-f34b27056448,bakiman_pradipta8030@satu.ac.id,Bakiman Pradipta,student,active,3000000030,,B30,Teknik Informatika,Pecco aeternus terebro arbitro delectus.,2026-10-01T13:55:56.505Z
+1667052c-af4f-42e3-9a3c-8cdbb36ae420,noviana.noviana31@satu.ac.id,Noviana Noviana Nurlaela,student,active,3000000031,,B30,Sistem Informasi,Adipisci quasi traho.,2026-10-01T13:55:56.505Z
+2ccca9bd-1069-44d7-b4f3-461bd8c6275f,sintia_saputri32@satu.ac.id,Sintia Saputri,student,active,2800000032,,B28,Teknik Elektro,Quia sit conatus amplus molestias.,2026-10-01T13:55:56.505Z
+452220ed-fc04-4c9f-a0d3-38f650c3a816,elvina.palastri6633@satu.ac.id,Elvina Palastri,student,active,3000000033,,B30,Teknik Informatika,Qui theologus impedit.,2026-10-01T13:55:56.505Z
+266ccd94-332f-41f0-99ef-ee8a99be5c43,shania.shania34@satu.ac.id,Shania Shania Putri,student,active,3000000034,,B30,Teknik Elektro,Corrigo patrocinor placeat laborum angustus culpa.,2026-10-01T13:55:56.505Z
+d2ccba4f-1a88-47e8-aba7-1f3c98f732ce,sherly_sherly4335@satu.ac.id,Sherly Sherly Farida,student,active,3000000035,,B30,Sistem Informasi,Auditor arcesso bene utroque.,2026-10-01T13:55:56.505Z
+020d62bf-207a-4277-9d41-549e64871bdc,damanik_luhung36@satu.ac.id,Damanik Luhung,student,active,2700000036,,B27,Teknik Elektro,Acceptus cicuta pauper.,2026-10-01T13:55:56.505Z
+302d5c1a-0e8f-4481-aa7d-ae3d49e679f7,rina_rina6037@satu.ac.id,Rina Rina Wulandari,student,active,3000000037,,B30,Teknik Informatika,Inflammatio sperno surgo minus et arcus.,2026-10-01T13:55:56.505Z
+baa5bb0b-ebed-4da5-8ec3-e74b04da1436,ramadhani_kani7338@satu.ac.id,Ramadhani Kani,student,active,3000000038,,B30,Teknik Elektro,Abstergo aedificium stabilis vos.,2026-10-01T13:55:56.505Z
+707e041d-4bc5-4749-af36-7813becc406d,harto.harto39@satu.ac.id,Harto Harto Wacana,student,active,2800000039,,B28,Teknik Informatika,Tunc argumentum utor impedit vorago.,2026-10-01T13:55:56.505Z
+defc1f23-0f92-41fc-b8b5-40401333837d,bakidin_hutagalung7640@satu.ac.id,Bakidin Hutagalung,student,active,2900000040,,B29,Teknik Informatika,Consuasor viscus solutio virga.,2026-10-01T13:55:56.505Z
+c6cf9c9f-8e98-418d-ae03-23fee50b6ebf,genta.genta41@satu.ac.id,Genta Genta Suryatmi,student,active,2700000041,,B27,Desain Komunikasi Visual,Conitor causa claro tenus curriculum.,2026-10-01T13:55:56.505Z
+c27195fb-85cf-4a66-a114-d55458d0d350,genta_suryatmi042@satu.ac.id,Genta Suryatmi,student,active,2700000042,,B27,Desain Komunikasi Visual,Casso versus distinctio desolo summa.,2026-10-01T13:55:56.505Z
+e749b171-8404-4704-9e82-a9382905568a,elvin.elvin43@satu.ac.id,Elvin Elvin Prasetya,student,active,2800000043,,B28,Teknik Elektro,Suppellex cinis conforto cinis tergum abeo.,2026-10-01T13:55:56.505Z
+4ac739c8-3e36-4585-b468-044c04d82916,laila_laila44@satu.ac.id,Laila Laila Wastuti,student,active,2900000044,,B29,Teknik Informatika,Coerceo quibusdam termes curiositas.,2026-10-01T13:55:56.505Z
+a30806e5-fc0a-4866-bc7e-0f7094333e80,hendra.hendra5045@satu.ac.id,Hendra Hendra Purnawarman,student,active,2800000045,,B28,Teknik Informatika,Tergo alveus acceptus tero.,2026-10-01T13:55:56.505Z
+c63e072d-6549-4642-a50f-667ba4f154f4,darijan.antoni46@satu.ac.id,Darijan Antoni,student,active,2800000046,,B28,Desain Komunikasi Visual,Delinquo sophismata eligendi causa tredecim.,2026-10-01T13:55:56.505Z
+fe95a10a-3393-4e7c-b934-6991961e8746,eli.laksmiwati47@satu.ac.id,Eli Laksmiwati,student,active,2700000047,,B27,Teknik Elektro,Amplus libero amitto utique consectetur velit.,2026-10-01T13:55:56.505Z
+753dd969-5b90-458e-9f44-4648a8a06d8b,puput.afifah5948@satu.ac.id,Puput Afifah,student,active,2600000048,,B26,Desain Komunikasi Visual,Temporibus uter despecto denuo.,2026-10-01T13:55:56.505Z
+0d0a9dfc-0b4b-4354-bf09-a1d6ba4bfded,salsabila.salsabila49@satu.ac.id,Salsabila Salsabila Usamah,student,active,2800000049,,B28,Teknik Informatika,Audentia vado credo provident.,2026-10-01T13:55:56.505Z
+fdd558a5-13e8-4e2b-819b-5633c1fa5e98,galang.galang50@satu.ac.id,Galang Galang Mustofa,student,active,2600000050,,B26,Teknik Informatika,Vulgivagus communis tyrannus.,2026-10-01T13:55:56.505Z
+b9b4013e-0fdf-4df0-b107-37cdba073a56,tedi.januar7551@satu.ac.id,Tedi Januar,student,active,2800000051,,B28,Teknik Elektro,Eius delego testimonium.,2026-10-01T13:55:56.505Z
+c30efc1b-dc5d-4e58-a776-8c1e3661c8f0,vania.mandasari52@satu.ac.id,Vania Mandasari,student,active,2900000052,,B29,Teknik Elektro,Cedo tabernus conscendo speciosus.,2026-10-01T13:55:56.505Z
+7aa2257a-66e0-41f4-9563-4f1e4dd37323,vanya_vanya53@satu.ac.id,Vanya Vanya Haryanti,student,active,2800000053,,B28,Desain Komunikasi Visual,Aeger claro auxilium cunctatio curatio vitae.,2026-10-01T13:55:56.505Z
+dd19e1db-19e5-4ead-85a4-93d41fbd9f5a,wijaya.xanana4454@satu.ac.id,Wijaya Xanana,student,active,2800000054,,B28,Sistem Informasi,Illum abstergo clibanus asporto vitae.,2026-10-01T13:55:56.505Z
+e4057df4-826f-43ab-a7ba-e3b1d10dc9fc,tari_tari7155@satu.ac.id,Tari Tari Nuraini,student,active,2700000055,,B27,Desain Komunikasi Visual,Virgo culpo sed.,2026-10-01T13:55:56.505Z
+5333b26b-20f5-417b-be1a-d9c9c53a2325,rahmat.natsir556@satu.ac.id,Rahmat Natsir,student,active,2600000056,,B26,Teknik Elektro,Iusto appono creta causa et veniam.,2026-10-01T13:55:56.505Z
+e6dfa6fa-6a6b-40ff-86c9-2ae2e049ca7a,rahmat.darojat1857@satu.ac.id,Rahmat Darojat,student,active,3000000057,,B30,Teknik Informatika,Volutabrum abeo laborum tantum cribro colligo.,2026-10-01T13:55:56.505Z
+ee3901af-f0df-494d-ac71-d75c42352c76,najib_najib58@satu.ac.id,Najib Najib Winarno,student,active,2900000058,,B29,Sistem Informasi,Vinculum nam vero credo.,2026-10-01T13:55:56.505Z
+074771fb-528d-4d1b-ac85-def8629cd6fb,novitasari.uchita59@satu.ac.id,Novitasari Uchita,student,active,3000000059,,B30,Teknik Elektro,Carmen deduco sed crapula cohors varietas.,2026-10-01T13:55:56.505Z
+1249a8ca-5787-46db-b4bb-1e3d6ea8915e,samsul_samsul60@satu.ac.id,Samsul Samsul Purnama,student,active,2900000060,,B29,Desain Komunikasi Visual,Spoliatio adduco texo.,2026-10-01T13:55:56.505Z
+7b689697-004f-416d-b313-d5bb0356a344,sirait.damu61@satu.ac.id,Sirait Damu,student,active,3000000061,,B30,Sistem Informasi,Tibi abbas repudiandae trepide adhaero.,2026-10-01T13:55:56.505Z
+4ae1f49f-5277-44a2-8dd9-bb46c7e008d4,dacin_dacin2062@satu.ac.id,Dacin Dacin Kuswoyo,student,active,2900000062,,B29,Teknik Elektro,Una speciosus convoco amo quasi.,2026-10-01T13:55:56.505Z
+3c3c8c57-24d9-4552-b6e2-890474671a09,rahayu.fathonah2763@satu.ac.id,Rahayu Fathonah,student,active,3000000063,,B30,Desain Komunikasi Visual,Ceno cubitum quia.,2026-10-01T13:55:56.505Z
+0925e844-0158-4f67-b4e2-27016831a4fc,yono_kurniawan64@satu.ac.id,Yono Kurniawan,student,active,2900000064,,B29,Desain Komunikasi Visual,Studio asper celebrer defungo tabesco mollitia.,2026-10-01T13:55:56.505Z
+197676df-2bcc-48e8-af80-dd63dbbdfe45,hardiansyah_baktiadi3965@satu.ac.id,Hardiansyah Baktiadi,student,active,2700000065,,B27,Sistem Informasi,Synagoga cursim quam.,2026-10-01T13:55:56.505Z
+420e7878-fe91-4ced-b1cd-8bc707c62db8,olivia_olivia66@satu.ac.id,Olivia Olivia Padmasari,student,active,3000000066,,B30,Desain Komunikasi Visual,Caelum tonsor auctus cattus comprehendo.,2026-10-01T13:55:56.505Z
+02e950c2-be69-41ad-a966-51ee6d80ecab,kemal.kemal5567@satu.ac.id,Kemal Kemal Agustian,student,active,2900000067,,B29,Teknik Elektro,Ambitus ambulo aranea.,2026-10-01T13:55:56.505Z
+76148f51-c95c-4369-9bcc-f170b14e6750,humaira_lailasari568@satu.ac.id,Humaira Lailasari,student,active,2800000068,,B28,Teknik Elektro,Valens candidus benevolentia acceptus officiis usque.,2026-10-01T13:55:56.505Z
+bbdb8f6c-a781-4f87-b2f9-5599de0f4742,slamet.slamet69@satu.ac.id,Slamet Slamet Mahardika,student,active,2600000069,,B26,Desain Komunikasi Visual,Cunctatio creber contigo aurum consuasor arto.,2026-10-01T13:55:56.505Z
+de2cb25c-da93-4f48-bb3c-60cc1f62087a,citra.citra1770@satu.ac.id,Citra Citra Widiastuti,student,active,2900000070,,B29,Teknik Informatika,Totus cogo adamo copiose autus demens.,2026-10-01T13:55:56.505Z
+e86844d7-9d15-48d4-9388-00439d1f1645,prasetyo_hairyanto8871@satu.ac.id,Prasetyo Hairyanto,student,active,2700000071,,B27,Teknik Informatika,Vado articulus quasi.,2026-10-01T13:55:56.505Z
+0958ac8b-ed87-4a12-b2ec-12275a4b7e81,jumadi.jumadi72@satu.ac.id,Jumadi Jumadi Maheswara,student,active,2600000072,,B26,Desain Komunikasi Visual,Arbustum suggero culpa odit.,2026-10-01T13:55:56.505Z
+d84690ac-971e-435c-a0e9-fb6c33dad74b,azzahra_oliva2773@satu.ac.id,Azzahra Oliva,student,active,2900000073,,B29,Desain Komunikasi Visual,Vindico comburo sufficio adeptio.,2026-10-01T13:55:56.505Z
+fece5ed4-6c4c-444c-a102-71f64c21d572,wulandari.purnama74@satu.ac.id,Wulandari Purnama,student,active,3000000074,,B30,Teknik Elektro,Admoveo arx adicio abscido cras voluptatum.,2026-10-01T13:55:56.505Z
+db987143-9238-4286-9dd5-463a05df57cd,ratna_hassanah5775@satu.ac.id,Ratna Hassanah,student,active,2600000075,,B26,Sistem Informasi,Soluta possimus depereo accedo aufero.,2026-10-01T13:55:56.505Z
+d864c0b0-2a96-4ac2-a47a-1b506364d2bb,prasetyo_indra1776@satu.ac.id,Prasetyo Indra,student,active,3000000076,,B30,Teknik Elektro,Debitis anser socius.,2026-10-01T13:55:56.505Z
+6293599e-08cb-4821-a4cc-3f6ac032065a,ida.jelita77@satu.ac.id,Ida Jelita,student,active,2700000077,,B27,Teknik Elektro,Vulgo crur tepesco.,2026-10-01T13:55:56.505Z
+a3d6de84-1c55-48b0-ab36-d41d8e772063,chelsea.purnama2678@satu.ac.id,Chelsea Purnama,student,active,2600000078,,B26,Teknik Informatika,Vaco sequi saepe ascit hic crastinus.,2026-10-01T13:55:56.505Z
+d5aefbc9-ac63-4b64-9497-1642dd57c043,hidayat.sidiq79@satu.ac.id,Hidayat Sidiq,student,active,2800000079,,B28,Sistem Informasi,Defungo usus valeo testimonium appono nisi.,2026-10-01T13:55:56.505Z
+e3763e8a-c06b-4c07-9813-1ed76316c44b,hastuti.rachel80@satu.ac.id,Hastuti Rachel,student,active,3000000080,,B30,Desain Komunikasi Visual,Denego acerbitas umquam.,2026-10-01T13:55:56.505Z
+194d24fb-e4fc-47d6-aafc-c52876a2b6b7,maria_ardiyanti5881@satu.ac.id,Maria Ardiyanti,student,active,2700000081,,B27,Teknik Elektro,Cresco apostolus tolero ventus denuo adhaero.,2026-10-01T13:55:56.505Z
+bf2cac4f-f9fe-4bac-bb80-aa3dfab2a3b6,halim.jarwa82@satu.ac.id,Halim Jarwa,student,active,3000000082,,B30,Teknik Elektro,Statim a bene argumentum nostrum.,2026-10-01T13:55:56.505Z
+a78dc79f-ebae-41b5-b5bb-393661535f2f,tampubolon.perkasa83@satu.ac.id,Tampubolon Perkasa,student,active,3000000083,,B30,Teknik Informatika,Patior turba asporto.,2026-10-01T13:55:56.505Z
+b5e6a899-d98f-4036-af35-9b66b34a1382,olivia_wastuti84@satu.ac.id,Olivia Wastuti,student,active,3000000084,,B30,Desain Komunikasi Visual,Quam vulticulus vacuus.,2026-10-01T13:55:56.505Z
+004667e2-ad0c-424c-9639-246ffe511c98,artanto.saputra2085@satu.ac.id,Artanto Saputra,student,active,2600000085,,B26,Teknik Informatika,Aequus concedo balbus.,2026-10-01T13:55:56.505Z
+c0d21043-e918-4c3f-b96f-04555abbb28a,bagas.bagas86@satu.ac.id,Bagas Bagas Waluyo,student,active,2600000086,,B26,Sistem Informasi,Apostolus adiuvo desipio soluta avarus audax.,2026-10-01T13:55:56.505Z
+d0001bac-afb6-4964-aa9a-f32b4a2d38d8,dasa_pratama3387@satu.ac.id,Dasa Pratama,student,active,3000000087,,B30,Teknik Elektro,Claudeo trado aranea praesentium atqui.,2026-10-01T13:55:56.505Z
+86bab165-52e1-44ae-8d7b-55239b483860,leilani.yulia2988@satu.ac.id,Leilani Yulia,student,active,2600000088,,B26,Teknik Elektro,Somniculosus defleo atrox.,2026-10-01T13:55:56.505Z
+2e7253a0-e777-4aac-9e87-a7cd0ef02390,ajeng_maheswari89@satu.ac.id,Ajeng Maheswari,student,active,2900000089,,B29,Desain Komunikasi Visual,Facilis autem cariosus accusamus.,2026-10-01T13:55:56.505Z
+d4798594-2a7c-4a0c-95cb-c023b2568daa,maharani_ella90@satu.ac.id,Maharani Ella,student,active,2700000090,,B27,Desain Komunikasi Visual,Calamitas ustulo tenus.,2026-10-01T13:55:56.505Z
+7cb1b4ad-c16a-45bf-9d63-44b54af38216,hakim_gading0@satu.ac.id,Hakim Gading,lecturer,active,,SF20000,,,Solitudo tametsi vito absorbeo amissio.,2026-10-01T13:55:56.505Z
+f883eded-f7a1-4926-9599-04277bd5e073,qori_qori1@satu.ac.id,Qori Qori Utami,lecturer,active,,SF20001,,,Comparo decerno suspendo vulgus.,2026-10-01T13:55:56.505Z
+6b73bcaf-1c3b-473f-bc18-68a408dfb769,superadmin@satu.ac.id,Super Administrator,superadmin,active,,,,,,2026-10-01T13:55:56.505Z
+418a692f-e3dd-44b3-94da-2ead5e951722,admin@satu.ac.id,Administrator,admin,active,,,,,,2026-10-01T13:55:56.505Z
+541b4db2-d3c3-4bac-8365-a1d82d84046d,prima.handoko3@satu.ac.id,Prima Handoko,lecturer,active,,SF20003,,,Excepturi aspicio tenus.,2026-10-01T13:55:56.505Z
+3944f511-71bc-4d95-8d3f-35f0269ebb02,admin2@satu.ac.id,Administrator Dua,admin,active,,,,,,2026-10-01T13:55:56.505Z
+c85a68a1-a66d-495f-9bf7-803c023d69c4,narpati_lantar914@satu.ac.id,Narpati Lantar,lecturer,active,,SF20004,,,Minus audeo antea stips.,2026-10-01T13:55:56.505Z
+f60520f6-5b99-4f61-a910-87585bc221b7,prabowo_prabowo22@satu.ac.id,Prabowo Prabowo Agustian,lecturer,active,,SF20002,,,Patior admoneo vehemens suscipit toties.,2026-10-01T13:55:56.505Z
+f2236abf-5ca7-4350-9361-cdbafd2871c3,saptono.kala226@satu.ac.id,Saptono Kala,lecturer,pending,,SF20006,,,Coma tenuis tero ulterius vir.,2026-10-01T13:55:56.505Z
+9c0f76f9-784c-42c3-bcba-e8371283830e,violet.violet621@satu.ac.id,Violet Violet Sudiati,student,suspended,2600000001,,B26,Teknik Informatika,Ducimus strenuus umerus.,2026-10-01T13:55:56.505Z
+80221f58-7d9d-4b0c-aead-da28d905d594,kawaya.kawaya5@satu.ac.id,Kawaya Kawaya Purwadi,lecturer,pending,,SF20005,,,Caelum caries textus deputo veritas.,2026-10-01T13:55:56.505Z
